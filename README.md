@@ -1,5 +1,6 @@
 # Student-Affairs-Management-Application
  - A javaFX application for managing student affairs for students those are at same level or department.
+ - Each level or department is given an isolated version of this app, so that each has its own data.
  - Desktop Application for Student Affairs System using Java JDBC driver and GUI using FXML.
  - Student affairs application is developed to manage students of Faculty of computing and information at Menoufia university).
  -  Important note !!!!

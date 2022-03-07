@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="perviousPage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="634.0" prefWidth="907.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ff.Previous">
+   <children>
+      <ImageView fitHeight="189.0" fitWidth="404.0" layoutX="243.0" layoutY="50.0" pickOnBounds="true">
+         <image>
+            <Image url="@imgs/icon.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="140.0" layoutY="239.0" prefHeight="318.0" prefWidth="550.0">
+         <children>
+            <TextField fx:id="prev1" layoutX="208.0" layoutY="29.0" prefHeight="26.0" prefWidth="191.0" />
+            <TextField fx:id="prev3" layoutX="208.0" layoutY="119.0" prefHeight="26.0" prefWidth="191.0" />
+            <TextField fx:id="prev2" layoutX="208.0" layoutY="75.0" prefHeight="26.0" prefWidth="191.0" />
+            <TextField fx:id="prev4" layoutX="208.0" layoutY="159.0" prefHeight="26.0" prefWidth="191.0" />
+            <TextField fx:id="prev5" layoutX="208.0" layoutY="207.0" prefHeight="26.0" prefWidth="191.0" />
+            <TextField fx:id="prev6" layoutX="208.0" layoutY="255.0" prefHeight="26.0" prefWidth="191.0" />
+            <Label layoutX="34.0" layoutY="32.0" prefHeight="20.0" prefWidth="165.0" text="Course1 previous grade :">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="34.0" layoutY="78.0" prefHeight="20.0" prefWidth="166.0" text="Course2 previous grade :">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="34.0" layoutY="122.0" prefHeight="20.0" prefWidth="166.0" text="Course3 previous grade :">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="34.0" layoutY="162.0" prefHeight="20.0" prefWidth="166.0" text="Course4 previous grade :">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="34.0" layoutY="210.0" prefHeight="20.0" prefWidth="166.0" text="Course5 previous grade :">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="34.0" layoutY="259.0" prefHeight="20.0" prefWidth="166.0" text="Course6 previous grade :">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button layoutX="389.0" layoutY="557.0" mnemonicParsing="false" onAction="#InsertClick" prefHeight="34.0" prefWidth="73.0" style="-fx-background-color: #5584AC;" text="Insert" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

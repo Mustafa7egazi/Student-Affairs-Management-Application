@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="courses" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="609.0" prefWidth="905.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ff.Reset">
+   <children>
+      <ImageView fitHeight="226.0" fitWidth="538.0" focusTraversable="true" pickOnBounds="true">
+         <image>
+            <Image url="@imgs/courses.png" />
+         </image>
+         <VBox.margin>
+            <Insets bottom="20.0" />
+         </VBox.margin>
+      </ImageView>
+      <HBox alignment="CENTER" prefHeight="223.0" prefWidth="906.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="199.0" prefWidth="259.0">
+               <children>
+                  <TextField fx:id="idForReset" alignment="CENTER" promptText="ID">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </TextField>
+                  <Button mnemonicParsing="false" onAction="#reset" prefHeight="51.0" prefWidth="182.0" style="-fx-background-color: #35589A;" text="Reset password" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+               <HBox.margin>
+                  <Insets right="30.0" />
+               </HBox.margin>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" />
+   </children>
+</VBox>
